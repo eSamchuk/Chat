@@ -1,0 +1,10 @@
+D:\Dropbox\ItStep\Системне\Chat\Contract\bin\Debug\Contract.dll
+D:\Dropbox\ItStep\Системне\Chat\Contract\bin\Debug\Contract.pdb
+D:\Dropbox\ItStep\Системне\Chat\Contract\obj\Debug\Contract.csprojResolveAssemblyReference.cache
+D:\Dropbox\ItStep\Системне\Chat\Contract\obj\Debug\Contract.dll
+D:\Dropbox\ItStep\Системне\Chat\Contract\obj\Debug\Contract.pdb
+E:\ItStep\Системне\Chat\Contract\bin\Debug\Contract.dll
+E:\ItStep\Системне\Chat\Contract\bin\Debug\Contract.pdb
+E:\ItStep\Системне\Chat\Contract\obj\Debug\Contract.csprojResolveAssemblyReference.cache
+E:\ItStep\Системне\Chat\Contract\obj\Debug\Contract.dll
+E:\ItStep\Системне\Chat\Contract\obj\Debug\Contract.pdb

@@ -1,0 +1,99 @@
+﻿<Window x:Class="Chat.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Chat"
+        mc:Ignorable="d"
+        Title="Client" Height="449.308" Width="277" Closing="Window_Closing"
+        >
+    <Window.Resources>
+        <Style x:Key="sendButtonStyle" TargetType="Button">
+            <Setter Property="IsEnabled" Value="False" />
+            <Style.Triggers>
+                <DataTrigger Binding="{Binding client.Connected}" Value="True">
+                    <Setter Property="IsEnabled" Value="True" />
+                </DataTrigger>
+            </Style.Triggers>
+        </Style>
+        <Style x:Key="privateRecipientStyle" TargetType="TextBox">
+            <Setter Property="IsEnabled" Value="{Binding ElementName=chbPrivate, Path=IsChecked}" />
+        </Style>
+        <Image x:Key="refresh" Source="refresh.png"/>
+    </Window.Resources>
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="26*"/>
+            <RowDefinition Height="284*"/>
+            <RowDefinition Height="26*"/>
+            <RowDefinition Height="26*"/>
+            <RowDefinition Height="25*"/>
+            <RowDefinition Height="25*"/>
+            <RowDefinition Height="25*"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" VerticalAlignment="Center"
+                    Text="{Binding Path=Login, 
+                StringFormat='Logged as: {0}'}"/>
+
+        <ListBox Name="lbMessages"
+                 Grid.Row="1"
+                 ItemsSource="{Binding MessageCol}">
+
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Margin="5">
+                        <TextBlock FontSize="16" Text="{Binding Path=Login}" />
+                        <TextBlock Text="{Binding Path=Text}" />
+                        <TextBlock Text="{Binding Path=LastTime, StringFormat=HH:mm}" />
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+        <DockPanel Grid.Row="2">
+            <TextBox Text="{Binding Path=MessageText, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}" 
+                     Width="204"
+                     Margin="2"/>
+            <Button Content="Send" 
+                    Name="btSend" 
+                    Margin="1"
+                    Style="{StaticResource sendButtonStyle}"
+                    Command="{Binding sendComm}">
+            </Button>
+        </DockPanel>
+
+        <StackPanel Grid.Row="3" Orientation="Horizontal">
+            <CheckBox Name="chbPrivate"
+                      Margin="10,0,0,0"
+                      VerticalAlignment="Center"
+                      Content="Приватне повідомлення" Click="chbPrivate_Checked"/>
+            <TextBox Margin="20,3,3,0" 
+                     Name="tbRecipient"
+                     Style="{StaticResource privateRecipientStyle}"
+                     Text="{Binding Recipient}"
+                     Width="70" Height="20" VerticalAlignment="Top"/>
+        </StackPanel>
+
+        <Button Grid.Row="4"
+                Name="btSendFile"
+                Margin="2,2,2,0"
+                Content="Send File"
+                IsEnabled="False"
+                Command="{Binding sendFileComm}" Click="btSendFile_Click" Height="20" VerticalAlignment="Top"/>
+
+        <Button Grid.Row="5"
+                Margin="2"
+                Content="DowndloadFile"
+                IsEnabled="{Binding Path=client.isFileWaiting}"
+                Command="{Binding getFileComm}"/>
+
+        <Button Grid.Row="6"
+                    Name="btSignOut" 
+                    Margin="2"
+                    Content="Disconnect"
+                    Command="{Binding closeComm}"/>
+
+    </Grid>
+</Window>

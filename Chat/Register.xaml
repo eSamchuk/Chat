@@ -1,0 +1,72 @@
+﻿<Window x:Class="Chat.Register"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Chat"
+        mc:Ignorable="d"
+        Title="Register" Height="196.107" Width="242.213">
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel VerticalAlignment="Center" 
+                    Orientation="Horizontal">
+            <TextBlock VerticalAlignment="Center" Width="99">Name:</TextBlock>
+            <TextBox Margin="10,3,3,3" 
+                     Width="115"
+                     Name="tbLogin"
+                     Text="{Binding Path=Login}"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="1" VerticalAlignment="Center" 
+                    Orientation="Horizontal">
+            <TextBlock VerticalAlignment="Center" Width="99">Password:</TextBlock>
+            <TextBox Margin="10,3,3,3" 
+                     Width="115"
+                     Name="tbPass"
+                     Text="{Binding Path=password}"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="2" VerticalAlignment="Center" 
+                    Orientation="Horizontal">
+            <TextBlock VerticalAlignment="Center">Confirm password:</TextBlock>
+            <TextBox Margin="10,3,3,3" 
+                     Width="115"
+                     Name="tbPassConfirm"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="3" VerticalAlignment="Center" 
+                    Orientation="Horizontal">
+            <TextBlock VerticalAlignment="Center" Width="99">E-mail</TextBlock>
+            <TextBox Margin="10,3,3,3" 
+                     Width="115"
+                     Name="tbEmail"
+                     Text="{Binding Path=eMail}"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="4" VerticalAlignment="Center" 
+                    Orientation="Horizontal">
+            <TextBlock VerticalAlignment="Center" Text="Phone" Width="107"/>
+            <TextBlock VerticalAlignment="Center" Text="+38"/>
+            <TextBox Margin="3,3,3,3" 
+                     Width="93"
+                     MaxLength="10"
+                     Name="tbPhoneNumber"
+                     Text="{Binding Path=PhoneNum}"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="5" Orientation="Horizontal">
+            <Button Name="btRegister" Width="75" Margin="40,2,2,2" Content="Register" Click="btRegister_Click"/>
+            <Button Name="btCansel" Margin="2" Width="75" Content="Cancel" Click="btCansel_Click"/>
+        </StackPanel>
+
+    </Grid>
+</Window>

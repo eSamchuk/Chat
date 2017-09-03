@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chat", "Chat\Chat.csproj", "{9E381C08-D771-45E1-9EFB-F62002DE3766}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Servak", "Server\Servak.csproj", "{3DCE4B9F-AAD1-469F-A1E0-7FFF42E3D8BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contract", "Contract\Contract.csproj", "{60AD678F-F6C0-4A3E-A832-45C773D7D562}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E381C08-D771-45E1-9EFB-F62002DE3766}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E381C08-D771-45E1-9EFB-F62002DE3766}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E381C08-D771-45E1-9EFB-F62002DE3766}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E381C08-D771-45E1-9EFB-F62002DE3766}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DCE4B9F-AAD1-469F-A1E0-7FFF42E3D8BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DCE4B9F-AAD1-469F-A1E0-7FFF42E3D8BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DCE4B9F-AAD1-469F-A1E0-7FFF42E3D8BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DCE4B9F-AAD1-469F-A1E0-7FFF42E3D8BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60AD678F-F6C0-4A3E-A832-45C773D7D562}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60AD678F-F6C0-4A3E-A832-45C773D7D562}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60AD678F-F6C0-4A3E-A832-45C773D7D562}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60AD678F-F6C0-4A3E-A832-45C773D7D562}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

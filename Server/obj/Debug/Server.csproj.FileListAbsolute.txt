@@ -1,0 +1,5 @@
+D:\Dropbox\ItStep\Системне\Chat\Server\obj\Debug\Server.csprojResolveAssemblyReference.cache
+D:\Dropbox\ItStep\Системне\Chat\Server\obj\Debug\MainWindow.g.cs
+D:\Dropbox\ItStep\Системне\Chat\Server\obj\Debug\App.g.cs
+D:\Dropbox\ItStep\Системне\Chat\Server\obj\Debug\Server_MarkupCompile.cache
+D:\Dropbox\ItStep\Системне\Chat\Server\obj\Debug\Server_MarkupCompile.lref

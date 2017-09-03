@@ -1,0 +1,25 @@
+E:\_Work\_Repository\goodmood2\Project\Lib SMS\bin\Debug\Lib_SMS.dll
+E:\_Work\_Repository\goodmood2\Project\Lib SMS\bin\Debug\Lib_SMS.pdb
+E:\_Work\_Repository\goodmood2\Project\Lib SMS\obj\Debug\Lib SMS.csprojResolveAssemblyReference.cache
+E:\_Work\_Repository\goodmood2\Project\Lib SMS\obj\Debug\Lib_SMS.dll
+E:\_Work\_Repository\goodmood2\Project\Lib SMS\obj\Debug\Lib_SMS.pdb
+C:\Users\V8\Desktop\SMSLib\bin\Debug\Lib_SMS.dll
+C:\Users\V8\Desktop\SMSLib\bin\Debug\Lib_SMS.pdb
+C:\Users\V8\Desktop\SMSLib\obj\Debug\Lib SMS.csprojResolveAssemblyReference.cache
+C:\Users\V8\Desktop\SMSLib\obj\Debug\Lib_SMS.dll
+C:\Users\V8\Desktop\SMSLib\obj\Debug\Lib_SMS.pdb
+C:\Users\student.STEP\Desktop\SmsSystem\SmsSystem\SMSLib\bin\Debug\Lib_SMS.dll
+C:\Users\student.STEP\Desktop\SmsSystem\SmsSystem\SMSLib\bin\Debug\Lib_SMS.pdb
+C:\Users\student.STEP\Desktop\SmsSystem\SmsSystem\SMSLib\obj\Debug\Lib SMS.csprojResolveAssemblyReference.cache
+C:\Users\student.STEP\Desktop\SmsSystem\SmsSystem\SMSLib\obj\Debug\Lib_SMS.dll
+C:\Users\student.STEP\Desktop\SmsSystem\SmsSystem\SMSLib\obj\Debug\Lib_SMS.pdb
+D:\C#\Сетевое\SmsSystem\SMSLib\bin\Debug\Lib_SMS.dll
+D:\C#\Сетевое\SmsSystem\SMSLib\bin\Debug\Lib_SMS.pdb
+D:\C#\Сетевое\SmsSystem\SMSLib\obj\Debug\Lib SMS.csprojResolveAssemblyReference.cache
+D:\C#\Сетевое\SmsSystem\SMSLib\obj\Debug\Lib_SMS.dll
+D:\C#\Сетевое\SmsSystem\SMSLib\obj\Debug\Lib_SMS.pdb
+C:\Users\V8\Desktop\SmsSystem\SMSLib\bin\Debug\Lib_SMS.dll
+C:\Users\V8\Desktop\SmsSystem\SMSLib\bin\Debug\Lib_SMS.pdb
+C:\Users\V8\Desktop\SmsSystem\SMSLib\obj\Debug\Lib SMS.csprojResolveAssemblyReference.cache
+C:\Users\V8\Desktop\SmsSystem\SMSLib\obj\Debug\Lib_SMS.dll
+C:\Users\V8\Desktop\SmsSystem\SMSLib\obj\Debug\Lib_SMS.pdb

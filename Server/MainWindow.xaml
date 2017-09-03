@@ -1,0 +1,46 @@
+﻿<Window x:Class="Servak.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Servak"
+        mc:Ignorable="d"
+        Title="Server" Height="350" Width="238.253"
+        Closing="Window_Closing">
+
+    <Grid>
+
+        <ListBox Margin="3"
+                 ItemsSource="{Binding Users, IsAsync=true}">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="{Binding Path=Login}"/>
+                        <TextBlock Margin="5,0,0,0">
+                            <TextBlock.Style>
+                                <Style TargetType="{x:Type TextBlock}">
+                                    <Style.Setters>
+                                        <Setter Property="Text" Value="offline" />
+                                        <Setter Property="Foreground" Value="Red"/>
+                                    </Style.Setters>
+                                    
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding Path=isConnected}" Value="True">
+                                            <Setter Property="Text" Value="online" />
+                                            <Setter Property="Foreground" Value="Blue"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </TextBlock.Style>
+                        </TextBlock>
+                    </StackPanel>
+
+               
+
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+
+    </Grid>
+</Window>

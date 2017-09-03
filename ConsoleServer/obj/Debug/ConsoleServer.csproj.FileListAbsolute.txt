@@ -1,0 +1,7 @@
+D:\Dropbox\ItStep\Системне\Chat\ConsoleServer\bin\Debug\ConsoleServer.exe.config
+D:\Dropbox\ItStep\Системне\Chat\ConsoleServer\bin\Debug\ConsoleServer.exe
+D:\Dropbox\ItStep\Системне\Chat\ConsoleServer\bin\Debug\ConsoleServer.pdb
+D:\Dropbox\ItStep\Системне\Chat\ConsoleServer\bin\Debug\Contract.dll
+D:\Dropbox\ItStep\Системне\Chat\ConsoleServer\bin\Debug\Contract.pdb
+D:\Dropbox\ItStep\Системне\Chat\ConsoleServer\obj\Debug\ConsoleServer.exe
+D:\Dropbox\ItStep\Системне\Chat\ConsoleServer\obj\Debug\ConsoleServer.pdb

@@ -1,0 +1,11 @@
+C:\Users\V8\Desktop\TestApp\bin\Debug\TestApp.exe.config
+C:\Users\V8\Desktop\TestApp\bin\Debug\TestApp.exe
+C:\Users\V8\Desktop\TestApp\bin\Debug\TestApp.pdb
+C:\Users\V8\Desktop\TestApp\bin\Debug\Lib_SMS.dll
+C:\Users\V8\Desktop\TestApp\bin\Debug\Lib_SMS.pdb
+C:\Users\V8\Desktop\TestApp\obj\Debug\TestApp.csprojResolveAssemblyReference.cache
+C:\Users\V8\Desktop\TestApp\obj\Debug\TestApp.exe
+C:\Users\V8\Desktop\TestApp\obj\Debug\TestApp.pdb
+C:\Users\V8\Desktop\lib\TestApp\bin\Debug\TestApp.exe.config
+C:\Users\V8\Desktop\lib\TestApp\obj\Debug\TestApp.exe
+C:\Users\V8\Desktop\lib\TestApp\obj\Debug\TestApp.pdb
